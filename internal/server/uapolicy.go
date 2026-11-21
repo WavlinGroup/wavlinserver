@@ -33,9 +33,9 @@ func (t uaTier) String() string {
 
 const (
 	// DefaultAdvertTitle replaces the queue title for non-allowlisted clients.
-	DefaultAdvertTitle = "⚠️ Unofficial client — get Wavlin: github.com/dvaustria741-a11y/Wavlin"
+	DefaultAdvertTitle = "⚠️ Unofficial client — get Wavlin: github.com/WavlinGroup/Wavlin"
 	// BlockedClientMessage is what a blocked client is told before we hang up.
-	BlockedClientMessage = "This client is not permitted on this server. Use Wavlin: github.com/dvaustria741-a11y/Wavlin"
+	BlockedClientMessage = "This client is not permitted on this server. Use Wavlin: github.com/WavlinGroup/Wavlin"
 )
 
 // Never Gonna Give You Up, the only correct answer to a freeloader.

@@ -1,4 +1,4 @@
-module github.com/dvaustria741-a11y/wavlinserver
+module github.com/WavlinGroup/wavlinserver
 
 go 1.25.6
 

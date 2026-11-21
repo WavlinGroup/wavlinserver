@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/dvaustria741-a11y/wavlinserver/proto"
+	pb "github.com/WavlinGroup/wavlinserver/proto"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 )

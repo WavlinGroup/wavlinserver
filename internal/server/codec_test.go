@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	pb "github.com/dvaustria741-a11y/wavlinserver/proto"
+	pb "github.com/WavlinGroup/wavlinserver/proto"
 	"google.golang.org/protobuf/proto"
 )
 

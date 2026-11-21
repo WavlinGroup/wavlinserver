@@ -1,6 +1,6 @@
 # Wavlinserver
 
-[![codecov](https://codecov.io/gh/dvaustria741-a11y/wavlinserver/graph/badge.svg)](https://codecov.io/gh/dvaustria741-a11y/wavlinserver)
+[![codecov](https://codecov.io/gh/WavlinGroup/wavlinserver/graph/badge.svg)](https://codecov.io/gh/WavlinGroup/wavlinserver)
 
 A high performance Go WebSocket server for Wavlin's "Listen Together" feature.  
 Utilizes protobuf and gzip compression for fast and efficient communication between clients.
@@ -11,7 +11,7 @@ Utilizes protobuf and gzip compression for fast and efficient communication betw
 You need to install go, protobuf, and protoc-gen-go
 
 ```bash
-git clone https://github.com/dvaustria741-a11y/wavlinserver
+git clone https://github.com/WavlinGroup/wavlinserver
 cd wavlinserver
 
 # Generate protobuf files (required first time)
@@ -91,7 +91,7 @@ they reconnect within the 15-minute grace period.
 
 ```bash
 # Clone the repository
-git clone https://github.com/dvaustria741-a11y/wavlinserver
+git clone https://github.com/WavlinGroup/wavlinserver
 cd wavlinserver
 
 # Build locally
@@ -123,7 +123,7 @@ docker run -d \
 ---
 services:
   wavlinserver:
-    image: ghcr.io/dvaustria741-a11y/wavlinserver:latest
+    image: ghcr.io/wavlingroup/wavlinserver:latest
     ports:
       - "8080:8080"
     environment:

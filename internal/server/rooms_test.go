@@ -5,7 +5,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	pb "github.com/dvaustria741-a11y/wavlinserver/proto"
+	pb "github.com/WavlinGroup/wavlinserver/proto"
 )
 
 func roomTestFixture() (*Server, *Room, *Client, *Client) {
