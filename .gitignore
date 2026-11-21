@@ -1,0 +1,6 @@
+/main
+proto/listentogether.pb.go
+/wavlinserver
+server_state.json
+wavlinserver.db*
+coverage.out
