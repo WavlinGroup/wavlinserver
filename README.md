@@ -83,7 +83,7 @@ they reconnect within the 15-minute grace period.
 
 - `cmd/wavlinserver` contains the executable entrypoint.
 - `internal/server` contains server behavior and tests.
-- `metroproto` contains the protobuf schema submodule.
+- `wavlinproto` contains the protobuf schema submodule.
 - `proto` contains generated Go protobuf code.
 - `scripts` contains development and generation scripts.
 
